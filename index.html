@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <main>
+            <div class="title"></div>
+
+            <section>
+                <div class="subtitle">Enter Your WEIGHT</div>
+                <div class="weight" id="weight">
+                    <input id="filedWeight" type="text" min="1" placeholder="53 kg">
+                </div>
+            </section>
+
+            <section>
+                <div class="subtitle">Enter Your HEIGHT</div>
+                <div class="height" id="height">
+                    <input id="filedHeight" type="text" min="45" placeholder="165 m">
+                </div>
+            </section>
+
+            <button id="submit">SUBMIT</button>
+        </main>
+
+        <article id="theResult">
+            <section>
+                <div class="subtitle">INFO</div>
+                <div class="info">
+                    <div class="result" id="result"></div>
+                    <div class="state" id="state"></div>
+                </div>
+            </section>
+
+            <div><button id="back">BACK</button></div>
+
+        </article>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
